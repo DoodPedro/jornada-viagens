@@ -2,6 +2,8 @@
 botoes
 cores de texto */
 
+
+
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
@@ -54,4 +56,49 @@ h1 {
 
 body{
   font-family: "Montserrat";
+}
+
+.section-title h2{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  margin: 0;
+  color: var(--text-primary-color);
+
+}
+
+hr{
+  width: 180px;
+  height: 4px;
+  background-color:var(--secondary-color) ;
+  border: none;
+  margin: 16px auto 32px ;
+}
+
+.button{
+  width: 280px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+}
+
+.categories{
+ margin-top: 88px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2{
+    font-size: 32px;
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover{
+    background-color: var(--primary-color);
+  }
 }
