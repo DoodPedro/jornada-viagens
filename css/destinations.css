@@ -1,0 +1,91 @@
+.destinations{
+    width: 312px;
+    margin: 0 auto;
+}
+
+.destinations-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.destinations .item .img-item{
+    width: 100%;
+    height: 368px;
+}
+
+.destinations .item header{
+    margin-bottom: 24px;
+}
+
+.destinations .item.Tokyo .img-item{
+    background: url(../img/Destinos-Tokyo-M.jpg);
+    background-size: cover;
+}
+
+.destinations .item.Osaka .img-item{
+    background: url(../img/Destinos-Osaka-M.jpg);
+    background-size: cover;
+}
+
+.destinations .item header h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 24px 0;
+}
+
+.destinations .item p{
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.destinations .button{
+    width: 280px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .destinations{
+        width: 648px;
+    }
+
+    .destinations .item .img-item{
+        width: 100%;
+        height: 452px;
+    }
+
+    .destinations .item.Tokyo .img-item{
+        background: url(../img/Destinos-Tokyo-TD.jpg);
+        background-size: cover;
+    }
+
+    .destinations .item.Osaka .img-item{
+        background: url(../img/Destinos-Osaka-TD.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .destinations{
+        width: 900px;
+    }
+
+    .destinations .items .img-item{
+        width: 100%;
+        height: 452px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destinations{
+        width: 1200px;
+    }
+
+    .destinations-items{
+        flex-direction: row;
+    }
+}
