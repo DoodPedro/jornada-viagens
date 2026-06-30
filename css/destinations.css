@@ -1,7 +1,4 @@
-.destinations{
-    width: 312px;
-    margin: 0 auto;
-}
+
 
 .destinations-items{
     display: flex;
@@ -46,6 +43,8 @@
 .destinations .button{
     width: 280px;
     text-align: center;
+    border-radius: 8px;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
