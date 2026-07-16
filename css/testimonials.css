@@ -1,0 +1,41 @@
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.testimonials-container article header p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.testimonials-container footer{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.testimonials-container footer img{
+    width: 86px;
+    height: 86px;
+    margin-top: 8px;
+}
+
+.testimonials-container footer .profile-content h4{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--title-weight);
+    margin: 15px 0 8px 0;
+}
+
+
+.testimonials-container footer .profile-content .rating .star{
+    font-size: 42px;
+    color: var(--secondary-color);
+    line-height: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .testimonials-container{
+        flex-direction: row;
+    }
+}
