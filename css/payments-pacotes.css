@@ -1,0 +1,38 @@
+/* NÃO PAGAMENTO */
+.section-title-PAC h2{
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  margin: 88px auto 16px;
+  color: var(--text-primary-color);
+
+}
+
+/* GRID */
+.payments .img-gallery-PAC {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 460px;
+    margin-top: 24px;
+    gap: 24px;
+   width: 100%;
+}
+
+.payments .content-container .img-gallery-PAC .image.bag{
+    background: url(../img/bag.jpg) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .img-gallery-PAC .image.passport{
+    background: url(../img/passport.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .img-gallery-PAC .image.people{
+    background: url(../img/people.jpg) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .img-gallery-PAC .image.colspan-2{
+    grid-column: span 2;
+}
