@@ -54,3 +54,9 @@
 .payments .content-container .img-gallery-PAC .image.colspan-2{
     grid-column: span 2;
 }
+
+@media screen and (min-width:768px) {
+    .content-container footer{
+        display: none;
+    }
+}
