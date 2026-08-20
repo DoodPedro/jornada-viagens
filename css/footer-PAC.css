@@ -1,6 +1,7 @@
-.bottom-hero .img-hero{
-    background: url(../img-2/chinesas.jpg);
+.bottom-hero .img-hero-P{
+    background: url(../img-2/chinesas.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    height: 400px;
 }
 
