@@ -38,14 +38,24 @@
 
 @media screen and (min-width: 768px) {
   .hero-C-img{
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img-3/Moças-inicial2.jpg) no-repeat;
+    background: url(../img-3/Moças-inicial2.jpg) no-repeat;
     background-size: cover;
     height: 620px;
   }
 
+  .hero  .hero-C-img .hero-texts h2{
+    font-weight: var(--title-weight);
+    color: var(--text-secondary-color);
+    font-size: 48px;
+    line-height: 100%;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 16px;
+  }
+
   .hero .hero-C-img .hero-texts{
     height: 303px;
-    padding: 209px 69px 0 120px;
+    padding: 192px 0px 0px 95px;
   }
   .hero .hero-C-img .hero-texts p{
     line-height: 150%;
@@ -62,23 +72,22 @@
     text-decoration: underline;
   }
 
-  .hero-P-img{
-    background: url(../img-3/Moças-inicio.jpg) no-repeat;
+  .hero-C-img{
+    background: url(../img-3/Moças-inicio3.jpg) no-repeat;
     background-size: cover;
-    background-position: bottom;
   }
 
-  .hero .hero-P-img .hero-texts p{
+  .hero .hero-C-img .hero-texts p{
     padding: 0;
     width: 579px;
   }
 
-  .hero .hero-P-img .hero-texts h2{
+  .hero .hero-C-img .hero-texts h2{
     padding-left: 0;
     padding-right: 0;
   }
 
-   .hero .hero-P-img .hero-texts hr{
+   .hero .hero-C-img .hero-texts hr{
     margin-left: 0;
     margin-right: 0;
   }
